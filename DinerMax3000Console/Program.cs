@@ -1,5 +1,5 @@
 ﻿using System;
-
+// roeut making change for git test
 namespace DinerMax3000Console
 {
     class MainClass
@@ -21,7 +21,7 @@ namespace DinerMax3000Console
                 MenuItem currentItem = summerMenu.items[x];
                 hungryGuestOrder.items.Add(currentItem);
             }
-
+//random comments 
             foreach(MenuItem currentItem in outsideDrinks.items){
                 hungryGuestOrder.items.Add(currentItem);
             }
