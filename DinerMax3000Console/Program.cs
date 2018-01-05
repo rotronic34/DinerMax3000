@@ -1,5 +1,5 @@
 ﻿using System;
-// roeut 
+// roeut 2
 namespace DinerMax3000Console
 {
     class MainClass
