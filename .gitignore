@@ -1,5 +1,6 @@
 # Autosave files
 *~
+# very interesting: open -a textedit .gitignore
 
 # build
 [Oo]bj/
