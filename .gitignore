@@ -1,6 +1,7 @@
 # Autosave files
 *~
 # very interesting: open -a textedit .gitignore
+# i've just push from local. now time to do reverse and pull from remote
 
 # build
 [Oo]bj/
