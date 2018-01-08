@@ -7,4 +7,4 @@ coder for my visual c# tutorial
 #i am now into creating new branches to learn how to fix merging issues 
 OK, maybe I don't need the # sign to write comments in a readme file.
 
-hot fix 5 
+hot fix 6 
