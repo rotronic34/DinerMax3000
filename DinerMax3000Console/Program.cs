@@ -1,5 +1,5 @@
 ﻿using System;
-// roeut making change for git test
+// roeut 2
 namespace DinerMax3000Console
 {
     class MainClass
@@ -9,19 +9,19 @@ namespace DinerMax3000Console
             FoodMenu summerMenu = new FoodMenu();
             summerMenu.Name = "Summer Menu";
             summerMenu.addMenuItem("Salmon", "Fresh Norwegian Salmon with butter", 25.50);
-            summerMenu.addMenuItem("Taco", "norwegian tacos number one", 15.50);
+            summerMenu.addMenuItem("Taco", "norwegian tacos number one", 150.50);
             summerMenu.hospitalDirection = "Right around the corner on 5th St ask for Dr. Jones";
 
             DrinkMenu outsideDrinks = new DrinkMenu();
             outsideDrinks.disclaimer = "Do not drink and code.";
-            outsideDrinks.addMenuItem("Jack Daniels", "a type of rum", 3.50);
+            outsideDrinks.addMenuItem("Jack Daniels", "a type of rum", 300.50);
 
             Order hungryGuestOrder = new Order();
             for (int x = 0; x <= summerMenu.items.Count-1; x++){
                 MenuItem currentItem = summerMenu.items[x];
                 hungryGuestOrder.items.Add(currentItem);
             }
-//random comments 
+//random comments again
             foreach(MenuItem currentItem in outsideDrinks.items){
                 hungryGuestOrder.items.Add(currentItem);
             }
